@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import "./index.scss";
 
-function T(props) {
+function FirstComponent(props) {
     return <div className="test">{props.text}</div>;
 }
 
@@ -16,4 +16,4 @@ function getElement(){
     return el; 
 }
 
-ReactDOM.render(<T text="test 2" />, getElement());
+ReactDOM.render(<FirstComponent text="test" />, getElement());
