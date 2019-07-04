@@ -2,3 +2,4 @@
 .thumbsdb
 .fusebox
 node_modules
+dist
